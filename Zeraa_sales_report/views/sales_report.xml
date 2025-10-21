@@ -1,0 +1,30 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>-->
+<!--<odoo>-->
+<!--    <record id="action_sales_report" model="ir.actions.report">-->
+<!--        <field name="name">New Sales Report</field>-->
+<!--        <field name="model">sale.order</field>-->
+<!--        <field name="report_type">qweb-pdf</field>-->
+<!--        <field name="report_name">Zeraa_sales_report.sales_report_template</field>-->
+<!--        <field name="report_file">Zeraa_sales_report.sales_report_template</field>-->
+<!--        <field name="binding_model_id" ref="sale.model_sale_order"/>-->
+<!--        <field name="print_report_name">'Print - %s' % (object.name)</field>-->
+<!--    </record>-->
+
+<!--    <template id="sales_report_template">-->
+<!--        <t t-call="web.html_container">-->
+<!--            <t t-call="web.basic_layout">-->
+<!--                <t t-foreach="docs" t-as="o">-->
+<!--                    <div class="header">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-12">-->
+<!--                                <img src="/Zeraa_sales_report/static/src/img/Yama_logo.jpg" alt="Company Logo"-->
+<!--                                     style="height: 95px;margin: 10px 0 10px;"/>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    السلام عليكم-->
+<!--                </t>-->
+<!--            </t>-->
+<!--        </t>-->
+<!--    </template>-->
+<!--</odoo>-->

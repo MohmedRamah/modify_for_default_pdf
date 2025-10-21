@@ -12,11 +12,10 @@
     "license": "AGPL-3",
     'category': 'Sales',
     'version': '17.0',
-    'depends': ['base', 'sale','custom_sales_report'],
+    'depends': ['base', 'sale'],
 
     'data': [
-        'views/sale_order_view22.xml',
-        'views/merge_price_template22.xml',
+        "views/sales_report.xml",
     ],
     'installable': True,
     'application': False,
